@@ -1,4 +1,4 @@
-DISCORD_BOT:
+OkDISCORD_BOT:
   #the discord bot token needed to log in
   TOKEN: ""
   #the prefix the bot will answer to
@@ -22,14 +22,14 @@ MC_SERVER:
     - "-nogui"
 
   #The ip that the status command pings
-  realIP: "localhost"
+  realIP: Totemsmp-fExG.aternos.me:
   #The ip that the status command shows.
   #If left empty no name or port will be shown
-  showIP: "localhost"
+  showIP: Totemsmp-fExG.aternos.me:
   #The port that players connect to
-  pingPort: "25565"
+  pingPort: 52438
   #The port that `query.port` in server.properties
-  queryPort: "25566"
+  queryPort: 52438
 
   #Due to oddities with YAML any `: ` or `- ` must have the space escaped. (`:\ ` or `-\ `)
   #for chat bridge
